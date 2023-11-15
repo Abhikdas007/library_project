@@ -50,7 +50,7 @@ function addBookToLibrary(arr) {
 
   myLibrary.forEach((item, index) => {
     const cardElement = document.createElement('div');
-    cardElement.classList.add('card', 'col-md-3');
+    cardElement.classList.add('card', 'col-md-3', 'm-5');
     cardElement.innerHTML = `<ul>
     <li> ${item.title}</li>
     <li>${item.author}</li>
